@@ -1,0 +1,8 @@
+"0","tree_depth_3 <- rpart(target ~ ., data = train_data, method = ""class"", control = rpart.control(maxdepth = 3))"
+"0","predictions_depth_3 <- predict(tree_depth_3, test_data, type = ""class"")"
+"0","tree_depth_7 <- rpart(target ~ ., data = train_data, method = ""class"", control = rpart.control(maxdepth = 7))"
+"0","predictions_depth_7 <- predict(tree_depth_7, test_data, type = ""class"")"
+"0","tree_depth_11 <- rpart(target ~ ., data = train_data, method = ""class"", control = rpart.control(maxdepth = 11))"
+"0","predictions_depth_11 <- predict(tree_depth_11, test_data, type = ""class"")"
+"0","tree_depth_15 <- rpart(target ~ ., data = train_data, method = ""class"", control = rpart.control(maxdepth = 15))"
+"0","predictions_depth_15 <- predict(tree_depth_15, test_data, type = ""class"")"

@@ -3,7 +3,7 @@
     "path": "~/Predicting_Heart_Disease/main.qmd",
     "project_path": "main.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "2444536366",
     "contents": "",
     "dirty": false,
     "created": 1727394737900.0,
@@ -19,14 +19,14 @@
         "scrollLine": "0",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "428:172"
+        "rmdVisualModeLocation": "209:6"
     },
     "folds": "",
-    "lastKnownWriteTime": 1727397017,
+    "lastKnownWriteTime": 1727401002,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1727397017511,
+    "last_content_update": 1727401002119,
     "read_only": false,
     "read_only_alternatives": []
 }
