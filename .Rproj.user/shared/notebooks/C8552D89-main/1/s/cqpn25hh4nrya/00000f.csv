@@ -1,0 +1,5 @@
+"0","set.seed(123)"
+"0",""
+"0","split <- sample.split(data$target, SplitRatio = 0.8)"
+"0","train_data <- subset(data, split == TRUE)"
+"0","test_data <- subset(data, split == FALSE)"
