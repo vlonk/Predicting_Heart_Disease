@@ -1,0 +1,4 @@
+"0","metrics_linear <- svm_experiment(""linear"")"
+"0","metrics_poly <- svm_experiment(""polynomial"")"
+"0","metrics_sigmoid <- svm_experiment(""sigmoid"")"
+"0","metrics_sigmoid_custom <- svm_experiment(""sigmoid"", gamma_value = 0.5)"

@@ -1,0 +1,6 @@
+"0","svm_linear <- svm(target ~ ., data = train_data, kernel = ""linear"")"
+"0",""
+"0","predictions_linear <- predict(svm_linear, test_data)"
+"0",""
+"0","confusion_matrix_linear <- table(predictions_linear, test_data$target)"
+"0","accuracy_linear <- sum(diag(confusion_matrix_linear)) / sum(confusion_matrix_linear)"

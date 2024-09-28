@@ -1,0 +1,8 @@
+"0","results <- data.frame("
+"0","  Kernel_Function = c(""linear"", ""polynomial"", ""sigmoid"", ""sigmoid with different σ value""),"
+"0","  Accuracy = c(metrics_linear[1], metrics_poly[1], metrics_sigmoid[1], metrics_sigmoid_custom[1]),"
+"0","  Precision = c(metrics_linear[2], metrics_poly[2], metrics_sigmoid[2], metrics_sigmoid_custom[2]),"
+"0","  Recall = c(metrics_linear[3], metrics_poly[3], metrics_sigmoid[3], metrics_sigmoid_custom[3])"
+"0",")"
+"0",""
+"0","print(results)"
