@@ -1,0 +1,6 @@
+"0","svm_poly <- svm(target ~ ., data = train_data, kernel = ""polynomial"")"
+"0",""
+"0","predictions_poly <- predict(svm_poly, test_data)"
+"0",""
+"0","confusion_matrix_poly <- table(predictions_poly, test_data$target)"
+"0","accuracy_poly <- sum(diag(confusion_matrix_poly)) / sum(confusion_matrix_poly)"

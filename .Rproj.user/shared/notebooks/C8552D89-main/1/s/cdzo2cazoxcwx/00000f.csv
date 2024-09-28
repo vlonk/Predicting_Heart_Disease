@@ -1,0 +1,5 @@
+"0","data$target <- as.factor(data$target)"
+"0","set.seed(123)"
+"0","train_index <- sample(1:nrow(data), 0.8 * nrow(data))"
+"0","train_data <- data[train_index, ]"
+"0","test_data <- data[-train_index, ]"

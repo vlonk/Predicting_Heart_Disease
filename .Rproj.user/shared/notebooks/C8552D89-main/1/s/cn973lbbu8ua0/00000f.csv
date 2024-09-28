@@ -1,0 +1,7 @@
+"0","svm_sigmoid <- svm(target ~ ., data = train_data, kernel = ""sigmoid"")"
+"0",""
+"0","predictions_sigmoid <- predict(svm_sigmoid, test_data)"
+"0",""
+"0","confusion_matrix_sigmoid <- table(predictions_sigmoid, test_data$target)"
+"0","accuracy_sigmoid <- sum(diag(confusion_matrix_sigmoid)) / sum(confusion_matrix_sigmoid)"
+"0",""
